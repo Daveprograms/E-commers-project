@@ -18,4 +18,19 @@ export class Luv2ShopFormService {
 
     return of(data);
   }
+
+  getCreditCardYear(): Observable<Number[]> {
+    let data: number[] = [];
+    //build an array of "Year" dropdown list
+    //- start at current year and loop until 2030
+
+    const startYear: number = new Date().getFullYear();
+    const endYear: number = startYear + 10;
+
+    for (let theYear = startYear; theYear <= endYear; theYear++) {
+      data.push(theYear);
+    }
+
+    return of(data);
+  }
 }
