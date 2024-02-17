@@ -7,6 +7,7 @@ import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+
 import java.util.Date;
 
 @Entity
@@ -30,9 +31,9 @@ public class Product {
     @Column(name = "description")
     private String description;
     @Column(name = "unit_price")
-    private String unitprice;
+    private String unitPrice;
     @Column(name = "image_Url")
-    private String imageUrl;
+    private String imageUrlm;
     @Column(name = "active")
     private boolean active;
     @Column(name = "units_In_Stock")
@@ -43,5 +44,7 @@ public class Product {
     @Column(name = "last_updated")
     @UpdateTimestamp
     private Date lastUpdated;
+
+
 
 }

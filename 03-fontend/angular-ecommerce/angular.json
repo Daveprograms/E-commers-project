@@ -22,8 +22,9 @@
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/@fortawsome/fontawsome-free/css/all.min.css"
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
+            
             "scripts": []
           },
           "configurations": {
@@ -61,20 +62,24 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "angular-ecommerce:build:development"
+          },
           "configurations": {
             "production": {
-              "buildTarget": "angular-ecommerce:build:production"
+              "browserTarget": "angular-ecommerce:build:production"
             },
             "development": {
-              "buildTarget": "angular-ecommerce:build:development"
+              "browserTarget": "angular-ecommerce:build:development"
             }
           },
           "defaultConfiguration": "development"
+      
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "angular-ecommerce:build"
+            "browserTarget": "angular-ecommerce:build"
           }
         },
         "test": {

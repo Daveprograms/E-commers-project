@@ -15,9 +15,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-
-
-
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
@@ -36,24 +33,28 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
         // disable HTTP methods for Product: PUT, POST, DELETE and PATCH
         config.getExposureConfiguration()
                 .forDomainType(Product.class)
-                .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
-                .withCollectionExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
+                .withItemExposure((metadata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
+                .withCollectionExposure((metadata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
 
         // disable HTTP methods for ProductCategory: PUT, POST, DELETE and PATCH
         config.getExposureConfiguration()
                 .forDomainType(ProductCategory.class)
-                .withItemExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
-                .withCollectionExposure((metdata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
+                .withItemExposure((metadata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
+                .withCollectionExposure((metadata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
 
-        // call an internal helper method
+        // call an internal helper method to expose IDs
         exposeIds(config);
 
+        // Configure CORS mapping to allow all origins for GET requests
+        cors.addMapping(config.getBasePath() + "/**")
+                .allowedOrigins("*")
+                .allowedMethods("GET")
+                .allowedHeaders("*")
+                .allowCredentials(false); // set to 'true' only if necessary
     }
 
     private void exposeIds(RepositoryRestConfiguration config) {
-
         // expose entity ids
-        //
 
         // - get a list of all entity classes from the entity manager
         Set<EntityType<?>> entities = entityManager.getMetamodel().getEntities();
@@ -62,14 +63,17 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
         List<Class> entityClasses = new ArrayList<>();
 
         // - get the entity types for the entities
-        for (EntityType tempEntityType : entities) {
+        for (EntityType<?> tempEntityType : entities) {
             entityClasses.add(tempEntityType.getJavaType());
         }
 
         // - expose the entity ids for the array of entity/domain types
         Class[] domainTypes = entityClasses.toArray(new Class[0]);
         config.exposeIdsFor(domainTypes);
-    }
 
+        
+
+    }
 }
+
 

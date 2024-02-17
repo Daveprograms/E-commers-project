@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4765499d-7549-44cd-809f-29f4ac8019fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/02-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/02-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/config/MyDataRestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/config/MyDataRestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/ProductCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/ProductCategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendSpring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/Project101/ecommerce/config/MyDataRestConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/Project101/ecommerce/config/MyDataRestConfi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/.idea/02-backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/Backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/Backend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/Backend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/Backend/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/common/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/common/product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.spec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2adSYoL9BtQ8EiD0JQvO94doyEb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LetterCounter.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.SpringBootEcommerceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
+    <configuration name="LetterCounter" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LetterCounter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootEcommerceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot-ecommerce" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Project101.ecommerce.SpringBootEcommerceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4765499d-7549-44cd-809f-29f4ac8019fa" name="Changes" comment="" />
+      <created>1704647018527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704647018527</updated>
+      <workItem from="1704647021172" duration="737000" />
+      <workItem from="1704686073049" duration="1450000" />
+      <workItem from="1704728843803" duration="1448000" />
+      <workItem from="1704793542577" duration="1953000" />
+      <workItem from="1704859931814" duration="336000" />
+      <workItem from="1704866197198" duration="482000" />
+      <workItem from="1704902803533" duration="641000" />
+      <workItem from="1705001822481" duration="4076000" />
+      <workItem from="1705254086724" duration="611000" />
+      <workItem from="1705289404255" duration="1673000" />
+      <workItem from="1705343223481" duration="16000" />
+      <workItem from="1705343248303" duration="731000" />
+      <workItem from="1705346567618" duration="466000" />
+      <workItem from="1705349797120" duration="26000" />
+      <workItem from="1705372483802" duration="1440000" />
+      <workItem from="1705556358589" duration="545000" />
+      <workItem from="1705728198995" duration="1297000" />
+      <workItem from="1705784488730" duration="18000" />
+      <workItem from="1706157539038" duration="79000" />
+      <workItem from="1706405025222" duration="143000" />
+      <workItem from="1706405281708" duration="5247000" />
+      <workItem from="1706482354419" duration="616000" />
+      <workItem from="1706556036844" duration="1988000" />
+      <workItem from="1706795137018" duration="607000" />
+      <workItem from="1706898111008" duration="29000" />
+      <workItem from="1708117145584" duration="1338000" />
+      <workItem from="1708183278533" duration="4356000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

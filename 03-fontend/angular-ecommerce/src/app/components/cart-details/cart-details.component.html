@@ -1,0 +1,140 @@
+<div class="main-content">
+  <div class="section-content section-content-p30">
+    <div class="container-fluid">
+      <div *ngIf="cartItems && cartItems.length > 0">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th width="20%" class="border-right">Product Image</th>
+              <th width="50%" class="border-right">Product Detail</th>
+              <th width="30%"></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr *ngFor="let tempCartItem of cartItems">
+              <td>
+                <img
+                  [src]="tempCartItem.imageUrl"
+                  class="img-responsive"
+                  width="150px"
+                  alt="Product Image"
+                />
+              </td>
+              <td>
+                <p>{{ tempCartItem.name }}</p>
+                <p>{{ tempCartItem.unitPrice | currency: 'USD' }}</p>
+              </td>
+              <td>
+                <div class="items">
+                  <label>Quantity:</label>
+
+                  <div class="row no-gutters">
+                    <div class="col">
+                      <button
+                        (click)="incrementQuantity(tempCartItem)"
+                        class="btn btn-primary btn-sm"
+                      >
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </div>
+                    <div class="col ml-4 mr-2">
+                      {{ tempCartItem.quantity }}
+                    </div>
+
+                    <div class="col">
+                      <button
+                        (click)="decrementQuantity(tempCartItem)"
+                        class="btn btn-primary btn-sm"
+                      >
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+
+                    <div class="col-8"></div>
+                  </div>
+                </div>
+
+                <div class="center-vertical">
+                  <button
+                    (click)="remove(tempCartItem)"
+                    class="btn btn-primary btn-sm mt-2"
+                  >
+                    Remove
+                  </button>
+                </div>
+
+                <p class="mt-2">
+                  Subtotal:{{ tempCartItem.quantity * tempCartItem.unitPrice | currency: 'USD' }}
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2"></td>
+              <td style="font-weight: bold">
+                <p>Total Quantity: {{ totalQuantity }}</p>
+                <p>Shipping: Free</p>
+                <p>Total price: {{ totalPrice | currency: 'USD' }}</p>
+                <a routerLink="/checkout" class="btn btn-primary">Checkout</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- if cart is empty then display this message -->
+      <div *ngIf="cartItems && cartItems.length === 0" class="empty-cart-message">
+        <div class="alert alert-warning fancy-alert" role="alert">
+          <span class="emoji">🛒</span> Your shopping cart is empty. Let's fill it up!
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- // css code / Styles -->
+  <head>
+    <style>
+      .table th.border-right {
+        border-right: 1px solid #ddd;
+      }
+    </style>
+  </head>
+
+  <!-- second style code -->
+  <style>
+    .empty-cart-message {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+    }
+
+    .fancy-alert {
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      border-radius: 15px;
+      background: linear-gradient(to right, #ffcccb, #ffb6c1);
+      color: #721c24;
+      border: 2px solid #ff3547;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .emoji {
+      font-size: 30px;
+      margin-right: 10px;
+    }
+
+    .center-vertical {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+  </style>
+
+
