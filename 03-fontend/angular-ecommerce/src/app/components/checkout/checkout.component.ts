@@ -17,7 +17,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 })
 export class CheckoutComponent implements OnInit {
   checkFormGroup: FormGroup;
-
+  totalPrice: number = 0;
+  totalQuantity: number = 0;
   constructor(private formBuilder: FormBuilder) {}
 
   ngOnInit(): void {
@@ -27,14 +28,14 @@ export class CheckoutComponent implements OnInit {
         lastname: [''],
         email: [''],
       }),
-      shippingAddress: this.formBuilder.group({
+      ShippingAddress: this.formBuilder.group({
         street: [''],
         city: [''],
         state: [''],
         country: [''],
         zipCode: [''],
       }),
-      billingAddress: this.formBuilder.group({
+      BillingAddress: this.formBuilder.group({
         street: [''],
         city: [''],
         state: [''],
@@ -51,7 +52,15 @@ export class CheckoutComponent implements OnInit {
       }),
     });
   }
-
+  copyShippingAddressToBillingAddress(event) {
+    if (event.target.checked) {
+      this.checkFormGroup.controls['BillingAddress'].setValue(
+        this.checkFormGroup.controls['ShippingAddress'].value
+      );
+    } else {
+      this.checkFormGroup.controls['ShippingAddress'].reset();
+    }
+  }
   onSubmit() {
     console.log('Handling the submit button');
     console.log(this.checkFormGroup.get('customer').value);
