@@ -5,58 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4765499d-7549-44cd-809f-29f4ac8019fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/02-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/02-backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/StateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/entity/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/entity/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/config/MyDataRestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/config/MyDataRestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/ProductCategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/ProductCategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackendSpring" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/Project101/ecommerce/config/MyDataRestConf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/Project101/ecommerce/config/MyDataRestConfi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/.idea/02-backend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/Backend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/Backend/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/Backend/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/Backend/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-backend/spring-boot-ecommerce/spring-boot-ecommerce/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/common/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/common/product.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-category-menu/product-category-menu.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-list/product-list-grid.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/product-list/product-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/services/product.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/services/luv2-shop-form.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/services/luv2-shop-form.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -73,28 +44,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LetterCounter.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.SpringBootEcommerceApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LetterCounter.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringBootEcommerceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.SpringBootEcommerceApplication">
     <configuration name="LetterCounter" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LetterCounter" />
@@ -153,10 +125,24 @@
       <workItem from="1706898111008" duration="29000" />
       <workItem from="1708117145584" duration="1338000" />
       <workItem from="1708183278533" duration="4985000" />
+      <workItem from="1708209431174" duration="1926000" />
+      <workItem from="1708273910226" duration="15216000" />
+      <workItem from="1708356219755" duration="1879000" />
+      <workItem from="1708528305408" duration="627000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/entity/Country.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
