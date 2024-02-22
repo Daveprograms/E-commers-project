@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4765499d-7549-44cd-809f-29f4ac8019fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/CountryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/dao/StateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/entity/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/entity/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/config/MyDataRestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend-spring-boot-ecommerce/src/main/java/com/Project101/ecommerce/config/MyDataRestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/services/luv2-shop-form.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/services/luv2-shop-form.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +119,8 @@
       <workItem from="1708209431174" duration="1926000" />
       <workItem from="1708273910226" duration="15216000" />
       <workItem from="1708356219755" duration="1879000" />
-      <workItem from="1708528305408" duration="627000" />
+      <workItem from="1708528305408" duration="1706000" />
+      <workItem from="1708630478417" duration="1541000" />
     </task>
     <servers />
   </component>
