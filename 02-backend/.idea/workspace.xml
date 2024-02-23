@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4765499d-7549-44cd-809f-29f4ac8019fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/components/checkout/checkout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/validators/luv2-shop-validators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../03-fontend/angular-ecommerce/src/app/validators/luv2-shop-validators.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +122,7 @@
       <workItem from="1708273910226" duration="15216000" />
       <workItem from="1708356219755" duration="1879000" />
       <workItem from="1708528305408" duration="1706000" />
-      <workItem from="1708630478417" duration="1541000" />
+      <workItem from="1708630478417" duration="2393000" />
     </task>
     <servers />
   </component>
